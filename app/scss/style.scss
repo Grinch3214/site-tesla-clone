@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
+	scroll-behavior: smooth;
 }
 
 .header-link {
@@ -17,4 +21,8 @@ body {
 
 .white-button {
 	@apply rounded-md text-center tracking-wider font-bold flex justify-center items-center bg-opacity-[65%] bg-white text-[12px] text-[#393c41] w-full tablet:w-[256px] h-[40px];
+}
+
+.footer-list {
+	@apply pb-[6px] tablet:py-[8px];
 }
