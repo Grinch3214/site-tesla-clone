@@ -10,3 +10,11 @@ body {
 .header-link {
 	@apply rounded-md font-semibold tracking-wider transition duration-500 flex justify-center items-center hover:bg-[#7396ad] hover:bg-opacity-20 text-[14px] py-[4px] px-[8px] h-[32px];
 }
+
+.main-button {
+	@apply rounded-md text-center text-white tracking-wider font-bold flex justify-center items-center bg-opacity-80 bg-[#181a1f] text-[12px] w-full tablet:w-[256px] h-[40px];
+}
+
+.white-button {
+	@apply rounded-md text-center tracking-wider font-bold flex justify-center items-center bg-opacity-[65%] bg-white text-[12px] text-[#393c41] w-full tablet:w-[256px] h-[40px];
+}

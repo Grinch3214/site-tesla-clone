@@ -6,7 +6,7 @@
 	<title>Orbital Intelligence</title>
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
-<body class="flex flex-col items-center h-screen bg-center bg-cover bg-no-repeat portrait:bg-mobile-model-3 bg-model-3">
+<body>
 
 	<header class="flex justify-between fixed inset-0 h-[60px] desktop:h-[54px]">
 		<div class="flex items-center pl-[8px] tablet:pl-[16px] desktop:pl-[32px] w-[245px]">
@@ -71,7 +71,9 @@
 			</li>
 		</ul>
 	</header>
-	<div class="flex flex-col w-full tablet:w-auto h-screen justify-between pt-[16vh] desktop:pt-[calc(13vh+20px)] pb-24 tablet:pb-10 tablet:portrait:pb-20 desktop:pb-[55px]">
+
+	<!-- s1-->
+	<div class="flex flex-col w-full tablet:w-auto h-screen justify-between pt-[16vh] desktop:pt-[calc(13vh+20px)] pb-24 tablet:pb-16 tablet:portrait:pb-20 bg-center bg-cover bg-no-repeat portrait:bg-mobile-model-3 bg-model-3">
 		<div class="text-center">
 			<h1 class="font-bold tracking-wide tablet:tracking-wider leading-[36px] tablet:leading-[1.15] text-[#171a20] text-[36px] tablet:text-[40px] desktop:text-[42px] py-[4px]">
 				Model 3
@@ -83,9 +85,114 @@
 				</a>
 			</h2>
 		</div>
-		<div class="flex flex-col tablet:flex-row justify-center items-center tablet:space-x-[25px] space-y-[16px] tablet:space-y-0 my-[16px] px-[20px]">
-			<a class="rounded-md text-center text-white tracking-wider font-bold flex justify-center items-center bg-opacity-80 bg-[#181a1f] text-[12px] w-full tablet:w-[256px] h-[40px]" href="#">Custom Order</a>
-			<a class="rounded-md text-center tracking-wider font-bold flex justify-center items-center bg-opacity-[65%] bg-white text-[12px] text-[#393c41] w-full tablet:w-[256px] h-[40px]" href="#">Existing Inventory</a>
+		<div class="flex flex-col tablet:flex-row justify-center items-center space-y-[16px] tablet:space-y-0 my-[16px] px-[20px] relative">
+			<a class="main-button" href="#">Custom Order</a>
+			<a class="white-button tablet:ml-[25px]" href="#">Existing Inventory</a>
+			<svg class="w-[38px] text-[#181b21] absolute bottom-[-70px] animate-bounce" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+			</svg>
+			
+		</div>
+	</div>
+
+	<!-- s2-->
+	<div class="flex flex-col w-full tablet:w-auto h-screen justify-between pt-[16vh] desktop:pt-[calc(13vh+20px)] pb-24 tablet:pb-10 tablet:portrait:pb-20 desktop:pb-[55px] bg-center bg-cover bg-no-repeat portrait:bg-mobile-model-y bg-model-y">
+		<div class="text-center">
+			<h1 class="font-bold tracking-wide tablet:tracking-wider leading-[36px] tablet:leading-[1.15] text-[#171a20] text-[36px] tablet:text-[40px] desktop:text-[42px] py-[4px]">
+				Model Y
+			</h1>
+			<h2 class=" font-medium tracking-wide desktop:tracking-wider text-[#171a20] text-[14px] pb-[8px]">
+				Order Online for
+				<a class="transition border-b hover:border-b-2 border-[#171a20] hover:border-[#181b21] hover:text-[#181b21]" href="#">
+					Touchless Delivery
+				</a>
+			</h2>
+		</div>
+		<div class="flex flex-col tablet:flex-row justify-center items-center space-y-[16px] tablet:space-y-0 my-[16px] px-[20px]">
+			<a class="main-button" href="#">Custom Order</a>
+			<a class="white-button tablet:ml-[25px]" href="#">Existing Inventory</a>
+		</div>
+	</div>
+
+	<!-- s3-->
+	<div class="flex flex-col w-full tablet:w-auto h-screen justify-between pt-[16vh] desktop:pt-[calc(13vh+20px)] pb-24 tablet:pb-10 tablet:portrait:pb-20 desktop:pb-[55px] bg-center bg-cover bg-no-repeat portrait:bg-mobile-model-s bg-model-s">
+		<div class="text-center">
+			<h1 class="font-bold tracking-wide tablet:tracking-wider leading-[36px] tablet:leading-[1.15] text-[#171a20] text-[36px] tablet:text-[40px] desktop:text-[42px] py-[4px]">
+				Model S
+			</h1>
+			<h2 class=" font-medium tracking-wide desktop:tracking-wider text-[#171a20] text-[14px] pb-[8px]">
+				Order Online for
+				<a class="transition border-b hover:border-b-2 border-[#171a20] hover:border-[#181b21] hover:text-[#181b21]" href="#">
+					Touchless Delivery
+				</a>
+			</h2>
+		</div>
+		<div class="flex flex-col tablet:flex-row justify-center items-center space-y-[16px] tablet:space-y-0 my-[16px] px-[20px]">
+			<a class="main-button" href="#">Custom Order</a>
+			<a class="white-button tablet:ml-[25px]" href="#">Existing Inventory</a>
+		</div>
+	</div>
+
+	<!-- s4-->
+	<div class="flex flex-col w-full tablet:w-auto h-screen justify-between pt-[16vh] desktop:pt-[calc(13vh+20px)] pb-24 tablet:pb-10 tablet:portrait:pb-20 desktop:pb-[55px] bg-center bg-cover bg-no-repeat portrait:bg-mobile-model-x bg-model-x">
+		<div class="text-center">
+			<h1 class="font-bold tracking-wide tablet:tracking-wider leading-[36px] tablet:leading-[1.15] text-[#171a20] text-[36px] tablet:text-[40px] desktop:text-[42px] py-[4px]">
+				Model X
+			</h1>
+			<h2 class=" font-medium tracking-wide desktop:tracking-wider text-[#171a20] text-[14px] pb-[8px]">
+				Order Online for
+				<a class="transition border-b hover:border-b-2 border-[#171a20] hover:border-[#181b21] hover:text-[#181b21]" href="#">
+					Touchless Delivery
+				</a>
+			</h2>
+		</div>
+		<div class="flex flex-col tablet:flex-row justify-center items-center space-y-[16px] tablet:space-y-0 my-[16px] px-[20px]">
+			<a class="main-button" href="#">Custom Order</a>
+			<a class="white-button tablet:ml-[25px]" href="#">Existing Inventory</a>
+		</div>
+	</div>
+
+	<!-- s5-->
+	<div class="flex flex-col w-full tablet:w-auto h-screen justify-between pt-[16vh] desktop:pt-[calc(13vh+20px)] pb-24 tablet:pb-10 tablet:portrait:pb-20 desktop:pb-[55px] bg-center bg-cover bg-no-repeat portrait:bg-mobile-solar-panels bg-solar-panels">
+		<div class="text-center">
+			<h1 class="font-bold tracking-wide tablet:tracking-wider leading-[36px] tablet:leading-[1.15] text-[#171a20] text-[36px] tablet:text-[40px] desktop:text-[42px] py-[4px]">
+				Solar Panels
+			</h1>
+			<h2 class=" font-medium tracking-wide desktop:tracking-wider text-[#171a20] text-[14px] pb-[8px]">
+				Lowest Cost Solar Panels in America
+			</h2>
+		</div>
+		<div class="flex flex-col tablet:flex-row justify-center items-center space-y-[16px] tablet:space-y-0 my-[16px] px-[20px]">
+			<a class="main-button" href="#">Order Now</a>
+			<a class="white-button tablet:ml-[25px]" href="#">Learn More</a>
+		</div>
+	</div>
+
+	<!-- s6-->
+	<div class="flex flex-col w-full tablet:w-auto h-screen justify-between pt-[16vh] desktop:pt-[calc(13vh+20px)] pb-24 tablet:pb-10 tablet:portrait:pb-20 desktop:pb-[55px] bg-center bg-cover bg-no-repeat portrait:bg-mobile-solar-roof bg-solar-roof">
+		<div class="text-center">
+			<h1 class="font-bold tracking-wide tablet:tracking-wider leading-[36px] tablet:leading-[1.15] text-[#171a20] text-[36px] tablet:text-[40px] desktop:text-[42px] py-[4px]">
+				Solar Roof
+			</h1>
+			<h2 class=" font-medium tracking-wide desktop:tracking-wider text-[#171a20] text-[14px] pb-[8px]">
+				Produce Clean Energy From Your Roof
+			</h2>
+		</div>
+		<div class="flex flex-col tablet:flex-row justify-center items-center space-y-[16px] tablet:space-y-0 my-[16px] px-[20px]">
+			<a class="main-button" href="#">Order Now</a>
+			<a class="white-button tablet:ml-[25px]" href="#">Learn More</a>
+		</div>
+	</div>
+
+	<!-- s7-->
+	<div class="flex flex-col w-full tablet:w-auto h-screen justify-between pt-[16vh] desktop:pt-[calc(13vh+20px)] pb-[120px] tablet:pb-[110px] tablet:portrait:pb-[120px] bg-center bg-cover bg-no-repeat portrait:bg-mobile-accessories bg-accessories">
+		<div class="text-center">
+			<h1 class="font-bold tracking-wide tablet:tracking-wider leading-[36px] tablet:leading-[1.15] text-[#171a20] text-[36px] tablet:text-[40px] desktop:text-[42px] py-[4px]">
+				Accessories
+			</h1>
+		</div>
+		<div class="flex flex-col tablet:flex-row justify-center items-center my-[16px] px-[20px]">
+			<a class="main-button" href="#">Order Now</a>
 		</div>
 	</div>
 
