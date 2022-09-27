@@ -6,9 +6,87 @@
 	<title>Orbital Intelligence</title>
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
-	<div class="font-bold underline">
-		Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum perferendis consequatur eligendi qui temporibus similique. Unde, nihil delectus veritatis fugit natus, consequuntur ipsam cupiditate quidem ipsa pariatur aspernatur sapiente odio?
+<body class="flex flex-col items-center h-screen bg-center bg-cover bg-no-repeat portrait:bg-mobile-model-3 bg-model-3">
+
+	<header class="flex justify-between fixed inset-0 h-[60px] desktop:h-[54px]">
+		<div class="flex items-center pl-[8px] tablet:pl-[16px] desktop:pl-[32px] w-[245px]">
+			<a class="inline-block pt-[8px] pl-[16px]" href="#">
+				<svg class="w-[120px] h-[30px]" viewBox="0 0 342 35" xmlns="http://www.w3.org/2000/svg"><path d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z" fill="currentColor"></path></svg>
+			</a>
+		</div>
+		<ul class="hidden desktop:flex items-center text-[#181b21] px-[8px]">
+			<li>
+				<a class="header-link" href="#">
+					<span class="m-[8px]">Model S</span>
+				</a>
+			</li>
+			<li>
+				<a class="header-link" href="#">
+					<span class="m-[8px]">Model 3</span>
+				</a>
+			</li>
+			<li>
+				<a class="header-link" href="#">
+					<span class="m-[8px]">Model X</span>
+				</a>
+			</li>
+			<li>
+				<a class="header-link" href="#">
+					<span class="m-[8px]">Model Y</span>
+				</a>
+			</li>
+			<li>
+				<a class="header-link" href="#">
+					<span class="m-[8px]">Solar Roof</span>
+				</a>
+			</li>
+			<li>
+				<a class="header-link" href="#">
+					<span class="m-[8px]">Solar Panels</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="hidden desktop:flex items-center pr-[32px]">
+			<li>
+				<a class="header-link" href="#">
+					<span class="m-[8px]">Shop</span>
+				</a>
+			</li>
+			<li>
+				<a class="header-link" href="#">
+					<span class="m-[8px]">Account</span>
+				</a>
+			</li>
+			<li>
+				<a class="header-link" href="#">
+					<span class="m-[8px]">Menu</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="flex desktop:hidden items-center pr-[8px] tablet:pr-[16px]">
+			<li>
+				<a class="rounded-md font-semibold leading-normal tablet:leading-[21px] tracking-wider transition duration-500 flex justify-center items-center bg-[#7396ad] bg-opacity-20 text-[12px] tablet:text-[14px] tablet:py-[4px] px-[8px] h-[28px] tablet:h-[32px]" href="#">
+					<span class="mx-[8px]">Menu</span>
+				</a>
+			</li>
+		</ul>
+	</header>
+	<div class="flex flex-col w-full tablet:w-auto h-screen justify-between pt-[16vh] desktop:pt-[calc(13vh+20px)] pb-24 tablet:pb-10 tablet:portrait:pb-20 desktop:pb-[55px]">
+		<div class="text-center">
+			<h1 class="font-bold tracking-wide tablet:tracking-wider leading-[36px] tablet:leading-[1.15] text-[#171a20] text-[36px] tablet:text-[40px] desktop:text-[42px] py-[4px]">
+				Model 3
+			</h1>
+			<h2 class=" font-medium tracking-wide desktop:tracking-wider text-[#171a20] text-[14px] pb-[8px]">
+				Order Online for
+				<a class="transition border-b hover:border-b-2 border-[#171a20] hover:border-[#181b21] hover:text-[#181b21]" href="#">
+					Touchless Delivery
+				</a>
+			</h2>
+		</div>
+		<div class="flex flex-col tablet:flex-row justify-center items-center tablet:space-x-[25px] space-y-[16px] tablet:space-y-0 my-[16px] px-[20px]">
+			<a class="rounded-md text-center text-white tracking-wider font-bold flex justify-center items-center bg-opacity-80 bg-[#181a1f] text-[12px] w-full tablet:w-[256px] h-[40px]" href="#">Custom Order</a>
+			<a class="rounded-md text-center tracking-wider font-bold flex justify-center items-center bg-opacity-[65%] bg-white text-[12px] text-[#393c41] w-full tablet:w-[256px] h-[40px]" href="#">Existing Inventory</a>
+		</div>
 	</div>
 
 	<script src="js/main.js"></script>
