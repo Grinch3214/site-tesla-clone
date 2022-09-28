@@ -4,9 +4,11 @@ module.exports = {
 		screens: {
 			'tablet': '600px',
 			'desktop': '1200px',
-			// 'portrait': {'raw': '{orientation: portrait}'},
 		},
     extend: {
+			boxShadow: {
+				border: '0 2px 0 0 #181b21'
+			},
 			backgroundImage: theme => ({
 				'model-3': 'url("../images/m3-desktop.jpg")',
 				'mobile-model-3': 'url("../images/m3-mobile.jpg")',
