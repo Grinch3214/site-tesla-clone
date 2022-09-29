@@ -3,12 +3,37 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
+* {
+	/* Firefox */
+	scrollbar-width: none;
+	scrollbar-color: #ffffff #ffffff;
+
+	/* Chrome, Edge, and Safari */
+	&::-webkit-scrollbar {
+		width: 0px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background: #ffffff;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: #ffffff;
+		border-radius: 0px;
+		border: 0px none #ffffff;
+	}
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	&.locked {
 		@apply overflow-hidden;
 	}
+}
+
+.fix-height {
+	height: calc(var(--vh, 1vh) * 100);
 }
 
 .header-link {
@@ -50,25 +75,6 @@ body {
 
 	&__box {
 		@apply overflow-x-auto max-h-full pb-32;
-
-		/* Firefox */
-		scrollbar-width: none;
-		scrollbar-color: #ffffff #ffffff;
-	
-		/* Chrome, Edge, and Safari */
-		&::-webkit-scrollbar {
-			width: 0px;
-		}
-	
-		&::-webkit-scrollbar-track {
-			background: #ffffff;
-		}
-	
-		&::-webkit-scrollbar-thumb {
-			background-color: #ffffff;
-			border-radius: 0px;
-			border: 0px none #ffffff;
-		}
 	}
 }
 
