@@ -12,4 +12,4 @@
 - SCSS
 - Tailwind CSS
 
-Original site [GitHub Pages](https://www.tesla.com/)
+Original site [Tesla](https://www.tesla.com/)
