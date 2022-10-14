@@ -55,7 +55,7 @@ function styles() {
 		// expanded(стандартный css), compressed(минифицированный файл)
 		.pipe(concat('style.min.css'))
 		.pipe(autoprefixer({
-			overrideBrowserslist: ['last 10 version'],
+			overrideBrowserslist: ['last 2 version'],
 			grid: true
 		}))
 		.pipe(dest('app/css'))

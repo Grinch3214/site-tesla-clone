@@ -32,6 +32,10 @@ body {
 	}
 }
 
+main {
+	overflow: hidden;
+}
+
 .fix-height {
 	height: calc(var(--vh, 1vh) * 100);
 }
@@ -80,4 +84,31 @@ body {
 
 .right-menu-link {
 	@apply block w-full mb-2 py-1 px-2 hover:bg-[#f2f2f2] text-[15px] font-medium tracking-wider transition duration-300;
+}
+
+.custom-hidden-up {
+	transition: all 1s ease;
+	transform: translateY(150%);
+	@media (prefers-reduced-motion) {
+		transition: none;
+	}
+}
+.custom-show-up {
+	transform: translateY(0);
+}
+
+.custom-hidden-left, .custom-hidden-right {
+	transition: all 1s ease;
+	transform: translateX(-100%);
+	opacity: 0;
+	@media (prefers-reduced-motion) {
+		transition: none;
+	}
+}
+.custom-hidden-right {
+	transform: translateX(100%);
+}
+.custom-show-left, .custom-show-right {
+	transform: translateY(0);
+	opacity: 1;
 }
